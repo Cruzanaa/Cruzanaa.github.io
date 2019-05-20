@@ -1,0 +1,53 @@
+/*PARA TODOS*/
+*{ 
+    padding: 0px;
+    margin: 0;
+}
+ul{
+    list-style: none;
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    color: #333;
+}
+
+/*CONTEUDO*/
+.conteudo{
+    width: 80%;
+    margin: 0 auto;
+   /*background: lightskyblue;*/
+}
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+#foto{
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.info{
+    display: flex;
+    align-items:center; 
+}
+.descricao{
+    margin-left: 20px;
+}
+.dados{
+    justify-content: center;
+}
+
+.redes-sociais{
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.redes-sociais>li{
+    font-size: 22px;
+}
+.contatos{
+    margin-bottom: 30px;
+}
