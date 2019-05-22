@@ -21,6 +21,7 @@ body{
 .cabecalho{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 20px 0;
 }
 
@@ -50,4 +51,9 @@ body{
 }
 .contatos{
     margin-bottom: 30px;
+}
+
+/*-- Experiências --*/
+.experiencias{
+    display: flex;
 }
