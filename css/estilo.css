@@ -12,6 +12,8 @@ body{
     color: #333;
 }
 
+
+
 /*CONTEUDO*/
 .conteudo{
     width: 80%;
@@ -54,6 +56,39 @@ body{
 }
 
 /*-- Experiências --*/
-.experiencias{
+.experiencia{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.esquerda{
+    width: 20%;
+    text-align: right;
+}
+.titulo-sessao, .subtitulo-sessao{
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.subtitulo-sessao{
+    font-size: 16px;
+}
+
+.sub-titulo-sessao{
+    font-size: 15px;
+    margin-bottom: 8px;
+    text-align: justify;
+}
+.direita{
+    width: 78%;
+}
+
+/*-- RODAPÉ --*/
+.rodape{
+    background: #333;
+    color: #abcdef;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
 }
