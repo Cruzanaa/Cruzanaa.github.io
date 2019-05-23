@@ -49,7 +49,7 @@ body{
     justify-content: space-between;
 }
 .redes-sociais>li{
-    font-size: 22px;
+    font-size: 27px;
 }
 .contatos{
     margin-bottom: 30px;
@@ -84,7 +84,60 @@ body{
     width: 78%;
 }
 
+
+/*-- TABELA DE HABILIDADES --*/
+.habilidades{
+    display: flex;
+    justify-content: space-between;
+}
+.skill{
+    width: 45%;
+}
+.skill div{
+    display: flex;
+    border-radius: 5px;
+}
+.skill div span{
+    margin-right: 10px;
+}
+.borda-barra{
+    height: 10px;
+    width: 100%;
+    border: 1px black solid;
+    border-radius: 5px;
+}
+
+.barra{
+    height: 10px;
+    background-color:gray;
+    border-radius: 5px;
+}
+.habi-100{
+    width: 100%;
+}
+.habi-90{
+    width: 90%;
+}
+.habi-80{
+    width: 80%;
+}
+.habi-70{
+    width: 70%;
+}
+.habi-60{
+    width: 60%;
+}
+.habi-50{
+    width: 50%;
+}
+
+
+
+
+
+
 /*-- RODAPÉ --*/
+
 .rodape{
     
     background: #333;
@@ -92,8 +145,4 @@ body{
     text-align: center;
     padding: 20px;
     margin-top: 30px;
-}
-
-/*-- TABELA DE HABILIDADES --*/
-.tabela-hab{
 }
