@@ -1,0 +1,50 @@
+/*PARA TODOS*/
+
+* {
+    padding: 0px;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background: #f4f4f4;
+    font-size: 14px;
+    color: #333;
+}
+
+
+/* -- CABEÇARIO + MENU HAMBURGUER --*/
+
+.navegar {
+    width: 8vw;
+    height: 19vh;
+    margin-left: 4vw;
+    margin-top: 4vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-oficial {
+    width: 80px;
+    cursor: pointer;
+}
+
+#logo-links {
+    display: none;
+}
+
+
+/*-- RODAPÉ --*/
+
+.rodape {
+    background: #333;
+    color: #abcdef;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
