@@ -13,6 +13,18 @@ ul{
 }
 
 
+/* ---- HEADER: CABEÇARIO ----*/
+#cabecario{
+ background: #FFFDFD;
+ width: 100%;
+ height: 10vh;
+ display: flex;
+ justify-content: space-between;
+}
+
+
+
+
 .conteudo{
     width: 80%;
     margin: 0 auto;
@@ -44,6 +56,18 @@ p{
     padding-left: 2vw;
     margin-top: 3vh;
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 600px) {
     .logo{
