@@ -12,12 +12,3 @@
         </div>d
 
 
-  
-
-            <!--div class=" nav-menu nav-icones">
-                <a href=""><i class="fab fa-linkedin-in"></i></a>
-                <a href=""><i class="fab fa-behance"></i></a>
-                <a href=""><i class="fab fa-instagram"></i></a>
-                <a href=""><i class="fab fa-github"></i></a>
-                <a href=""><i class="fab fa-medium-m"></i></a>
-            </div-->

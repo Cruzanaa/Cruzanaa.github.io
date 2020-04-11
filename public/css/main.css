@@ -9,7 +9,7 @@
 }
 
 body {
-    background-color: #EFE9E6;
+    /*background-color: #EFE9E6;*/
     font-family: 'Lato', sans-serif;
     font-size: 1.8em;
 }
@@ -31,8 +31,9 @@ a {
 }
 
 
-/* ---- HEADER: CABEÇARIO ----*/
 
+
+/* ---- HEADER: CABEÇARIO ----*/
 .cabecario {
     background: #FFFDFD;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.04);
@@ -42,41 +43,17 @@ a {
     justify-content: space-between;
 }
 
-.menu-abas {
-    padding-left: 5vw;
-}
-
-.menu-abas a {
-    font-size: 18px;
-    font-weight: bold;
-    letter-spacing: 0.1em;
-    color: #303136;
-    margin-left: 1vw;
-}
-
-.nav-icones {
-    margin-right: 80px;
-}
-
-.nav-icones .fab {
-    padding-right: 20px;
-}
 
 
-/*-- Menu Mobile --*/
 
-.menu-hamburger {
-    visibility: hidden;
-}
 
-.fechar-btn {
-    visibility: hidden;
-    display: none;
-}
+
+
+
+
 
 
 /* ---- ARTICLE: INTRODUÇÃO ----*/
-
 .intro {
     background-image: url('../img/fundo-a.png');
     background-repeat: no-repeat;
@@ -85,120 +62,25 @@ a {
     height: 200vh;
 }
 
-.conteudo {
-    width: 80%;
-    margin: 0 auto;
-}
 
-.conteudo-direcao {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 20vh;
-}
 
-.logo {
-    width: 15%;
-    height: auto;
-}
 
-p {
-    color: #2f3035;
-    padding-top: 15vh;
-}
 
-.redes-sociais {
-    display: flex;
-    justify-content: center;
-}
 
-.icones-redesSociais {
-    width: 2vw;
-    padding-left: 2vw;
-    margin-top: 3vh;
-}
 
+
+
+
+
+
+
+/*--------------- VERSÃO MOBILE ----------------*/
 
 @media screen and (max-width: 600px) {
     .cabecario {
         background: #CC8D8E;
     }
-    .nav-menu {
-        display: none;
-    }
-    .logo {
-        width: 50%;
-        height: auto;
-    }
-    p {
-        text-align: center;
-    }
-    .icones-redesSociais {
-        width: 8vw;
-    }
-
-
-/*-- Menu Hamburguer --*/
-.menu-hamburger {
-    visibility: visible;
-}
-
-.fechar-btn {
-    visibility: visible;
-    display: block;
-}
-.fa-bars{
-    display: block;
-    position: absolute;
-    right: 0;
-    top: 0;
-}
-
-.overlay {
-    height: 100%;
-    position: fixed;
-    z-index: 1;
-    background-color: rgba(0, 0, 0, 0.9);
-    overflow-x: hidden;
-    transition: 0.5s;
-}
-.menu-abas {
-    position: relative;
-    top: 25%;
-    width: 100%;
-    text-align: center;
-    margin-top: 30px;
-}
-
-.menu-abas a {
-    padding: 8px;
-    text-decoration: none;
-    font-size: 36px;
-    color: #818181;
-    display: block;
-    transition: 0.3s;
-}
-
-.overlay a:hover, .overlay a:focus {
-    color: #f1f1f1;
-}
-
-.overlay .fechar-btn {
-    position: absolute;
-    top: 20px;
-    right: 45px;
-    font-size: 60px;
-}
-
-.overlay a {
-    font-size: 20px
-}
-
-.overlay .fechar-btn {
-    font-size: 40px;
-    top: 15px;
-    right: 35px;
-}
+    
 
 
 }/*-- final do documento: mobile --*/
