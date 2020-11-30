@@ -8,6 +8,9 @@
     <link href="https://fonts.googleapis.com/css?family=Barlow:300,400,500,600,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
         integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+    <!--CSS-->
+    <link rel="stylesheet" type="text/css" href="_assets/css/header.css">
     
     <title>CruzAna</title>
 
@@ -23,20 +26,62 @@
 </head>
 
 <body>
-    <main class="conteudo">
-        <div class="conteudo-direcao">
-            <img src="public/img/logo.png" class="logo" alt="logotipo cinza, cruzana">
-            <p>Site em manutenção, em breve um novo portfólio</p>
+    <main class="#">
+        <!-- HEADER -->
+<div class="mission"><span>APOIANDO PROJETOS CRIATIVOS</span></div>
+<header id="header">
+    <a href="./" class="logo"></a>
+    <div class="menu-handler">
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
         </div>
-
-        <div id="contatos">   
-            <ul class="redes-sociais">
-               <li><a href="https://www.linkedin.com/in/ana-carolina-ferreira-cruz-b2b562135/"><img src="public/img/icon-linkedin.png" class="icones-redesSociais" alt=""></a></li>
-               <li><a href="https://www.behance.net/cruzana"><img src="public/img/icon-behance.png" class="icones-redesSociais" alt=""></a></li>
-               <li><a href="https://github.com/Cruzanaa"><img src="public/img/icon-github.png" class="icones-redesSociais" alt=""></a></li>
-            </ul>
-        </div>
+    </div>
+    <div id="navigation">
+        <ul>
+            <li><a>Portfólio</a>
+							<ul class="submenu">
+                  <li><a href="portfolio/web.html">Web</a></li>
+                  <li><a href="portfolio/branding.html">Branding</a></li>
+                  <li><a href="portfolio/id-visual.html">Identidade Visual</a></li>
+							</ul>
+						</li><span></span>
+						<li><a>Sobre</a>
+								<ul class="submenu">
+										<li><a href="proposito.html">Propósito</a></li>
+										<li><a href="historia.html">História</a></li>
+								</ul>
+						</li><span></span>
+            <li><a href="servicos.html">Serviços</a></li><span></span>
+            <li><a href="cursos.html">Cursos</a></li><span></span>
+            <li><a href="eventos.html">Eventos</a></li><span></span>
+            <li><a href="http://hitsy.com.br/observatorio">Blog</a></li><span></span>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </div>
+</header>
+       
     </main>
 </body>
 
+<!--JQUERY-->
+<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+crossorigin="anonymous"></script>
+
+<!--JS-->
+<script src="_assets/js/menu.js"></script>
+
 </html>
+
+
+<!-- /* .conteudo{
+    width: 80%;
+    margin: 0 auto;
+}
+.conteudo-direcao{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20vh;
+} */ -->
