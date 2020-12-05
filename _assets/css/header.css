@@ -1230,11 +1230,7 @@ footer .small-footer .social-links a:last-child {
     background-color: #3e3e3e;
     z-index: 2
 }
-@media onlys screen and (min-width: 1170px) {
-    .cd-filter {
-        width: 20%
-    }
-}
+
 .cd-filter-trigger.filter-is-visible {
     pointer-events: none
 }
@@ -1432,28 +1428,7 @@ footer .small-footer .social-links a:last-child {
     -moz-animation-iteration-count: infinite;
     moz-animation-timing-function: ease-in-out
 }
-@-webkit-keyframes Floatingx {
-    from {
-        -webkit-transform: translate(0, 0)
-    }
-    50% {
-        -webkit-transform: translate(0, 20px)
-    }
-    to {
-        -webkit-transform: translate(0, 0)
-    }
-    @media screen and (max-width: 1199px) {
-        from {
-            -webkit-transform: translate(0, 0)
-        }
-        50% {
-            -webkit-transform: translate(0, 0)
-        }
-        to {
-            -webkit-transform: translate(0, 0)
-        }
-    }
-}
+
 @-moz-keyframes Floating {
     from {
         -moz-transform: translate(0, 0)
@@ -1464,17 +1439,7 @@ footer .small-footer .social-links a:last-child {
     to {
         -moz-transform: translate(0, 0)
     }
-    @media screen and (max-width: 1199px) {
-        from {
-            -moz-transform: translate(0, 0)
-        }
-        50% {
-            -moz-transform: translate(0, 0)
-        }
-        to {
-            -moz-transform: translate(0, 0)
-        }
-    }
+    
 }
 .toup {
     text-transform: uppercase
@@ -1519,7 +1484,7 @@ h6 {
     text-transform: uppercase
 }
 h1 {
-    font-size: 3em;
+    font-size: 20px;
     letter-spacing: 6px
 }
 @media screen and (max-width: 940px) {

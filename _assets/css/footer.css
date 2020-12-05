@@ -1,0 +1,82 @@
+/*
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Footer
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+*/
+
+footer {
+	padding: 80px 0 85px;
+}
+
+.contact-info {
+	font-size: 12px;
+	line-height: 24px;
+	letter-spacing: 1px;
+	margin-bottom: 80px;
+	text-align: right;
+	font-family: "PT Mono", sans-serif;
+	text-transform: uppercase;
+}
+
+.contact-info a {
+	display: inline-block;
+	padding-top: 16px;
+}
+
+.small-footer {
+	border-top: 1px solid #cfcfcf;
+	font-size: 12px;
+	font-weight: 600;
+	padding-top: 9px;
+	text-transform: uppercase;
+	font-family: "PT Mono", sans-serif;
+}
+
+.social-links {
+	display: inline-block;
+	float: left;
+}
+
+.social-links a {
+	border-right: 1px solid #ddd;
+	margin-right: 12px;
+	padding-right: 12px;
+}
+
+.social-links a:last-child{
+	border-right: none;
+}
+
+#back-to-top-link{
+	float: right;
+}
+
+/*-----------------------------------------------------------------------------*/
+
+	@media screen and (max-width: 1199px) {
+		footer {
+			padding: 40px 0 50px 0;
+		}
+
+		.contact-info {
+			margin-bottom: 40px;
+			letter-spacing: 0px;
+			font-size: 12px;
+			line-height: 26px;
+		}
+
+		.social-links {
+			display: none;
+		}
+	}
+	@media screen and (max-width: 767px) {
+		#back-to-top-link{
+			padding: 12px 0 20px 10px;
+		}
+	}
